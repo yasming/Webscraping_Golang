@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  server:
+    container_name: web_scrapping
+    build:
+      context: .
+    command: nodemon --exec go run main.go --signal SIGTERM
+    ports:
+      - "8989:8989"
+    volumes:
+      - .:/app
