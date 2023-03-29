@@ -2,6 +2,8 @@
 
 This is a project that will get the teams in cblol from https://www.flashscore.com.br/esports/league-of-legends/cblol/classificacao/#/27z054yL/table using a crawler and provide all the teams that are participating in the championship as a json response from the endpoint ```/api/get-teams``` and addressing some ```DDD techniques``` in the process of develop our api. 
 
+Medium article: https://medium.com/@yasmin_12961/how-to-create-a-web-scraper-with-golang-5a57e6f11e72
+
 ## Prerequisites
 
 ```
